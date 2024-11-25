@@ -16,6 +16,7 @@ html, body{
 }
 header{
     height: 8vh;
+    z-index: 10;
     width: 100%;
 }
 header ul{
@@ -137,4 +138,38 @@ h3{
     font-size: 2rem;
     padding: 45px 0;
     color:var(--color3) ;
+}
+.father-decouverte img{
+    width: 60%;
+    border-radius: 8px;
+    margin: 30px 0 60px 5%;
+    box-shadow:4px 4px 5px var(--color3) ;
+    height: 300px;
+}
+.father-decouverte div{
+    position: relative;
+}
+p span{
+    position:absolute;
+    font-family: "Parkinsans", sans-serif;
+ font-optical-sizing: auto;
+   text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-style: normal;
+ color:var(--color4) ;
+}
+.span1, .span3, .span5{
+left: 55%;
+top: 50%;
+}
+.decouv2{
+    position: relative;
+}
+#img2-dec{
+    position: absolute;
+ right: 0;
+ margin-bottom: 50px;
+ margin-top: 50%;
+    margin-right: 20px;
 }
