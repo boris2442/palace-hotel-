@@ -1,0 +1,140 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#fff;
+    --color2:#f1e6e6;
+    --color3:#9d8484;
+    --color4:black;
+
+}
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+}
+header{
+    height: 8vh;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color2);
+    padding: 20px;
+    margin: 0;
+width: 100%;
+    position: fixed;
+    opacity:0.9;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2rem;
+    /* font-size: 1.99rem; */
+}
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700 */
+
+/* .edu-au-vic-wa-nt-pre-<uniquifier> { */
+.name{
+  
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    left: 0;
+    margin: 0;
+    margin-left: 0;
+    font-size: 1.6rem;
+
+
+
+}
+#first-section{
+   background-image: url("./asset/background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+}
+h1{
+    font-family: "Parisienne", serif;
+    font-weight: 600;
+    padding-top:15%;
+      text-transform: capitalize;
+      font-size: 3.5rem;
+      color:var(--color1);
+      display: flex;
+      text-align: center;
+      
+      justify-content: center;
+      align-items: center;
+      font-style: normal;    
+}
+h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+ font-size: 2.5rem;
+ color:var(--color1);
+
+}
+#second-section{
+text-align: center;
+}
+h3{
+      font-family: "Parkinsans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 2rem;
+      padding: 30px 0;
+      color:var(--color3);
+    
+}
+.first-para{
+    width: 60%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    display: flex;
+    margin: 0 auto;
+}
+.father{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+}
+
+.father div img{
+    border-radius: 5px;
+    box-shadow:4px 4px 5px var(--color3) ;
+}
+.father div h4{
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Parisienne", serif;
+    text-transform: capitalize;
+ font-size: 1.5rem;
+   
+}
+.decouverte{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 45px 0;
+    color:var(--color3) ;
+}
