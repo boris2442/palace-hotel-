@@ -16,7 +16,6 @@ html, body{
 }
 header{
     height: 8vh;
-    z-index: 10;
     width: 100%;
 }
 header ul{
@@ -25,11 +24,12 @@ header ul{
     background-color: var(--color2);
     padding: 20px;
     margin: 0;
-width: 100%;
+    width: 100%;
     position: fixed;
     opacity:0.9;
 }
 header ul li{
+    z-index: 10;
     list-style-type: none;
 }
 header ul li a{
@@ -142,9 +142,10 @@ h3{
 .father-decouverte img{
     width: 60%;
     border-radius: 8px;
+    z-index: -10;
     margin: 30px 0 60px 5%;
     box-shadow:4px 4px 5px var(--color3) ;
-    height: 300px;
+    height: 400px;
 }
 .father-decouverte div{
     position: relative;
@@ -163,13 +164,31 @@ p span{
 left: 55%;
 top: 50%;
 }
-.decouv2{
-    position: relative;
+.img2-dec{
+    margin-right: 0;
 }
-#img2-dec{
-    position: absolute;
- right: 0;
- margin-bottom: 50px;
- margin-top: 50%;
-    margin-right: 20px;
+
+.span2, .span4{
+top: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input, textarea, button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    width: 350px;
+
+}
+button{
+    font-size: 1.2rem;
+    background-color: var(--color3);
+}
+textarea{
+    height: 120px;
 }
