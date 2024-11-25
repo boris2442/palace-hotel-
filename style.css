@@ -33,6 +33,7 @@ header ul li{
     z-index: 10;
     list-style-type: none;
 }
+
 header ul li a{
     text-decoration: none;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -165,12 +166,28 @@ p span{
 left: 55%;
 top: 50%;
 }
-.img2-dec{
-    margin-right: 0;
+.img2-dec, .img4-dec{
+   float: right;
+   padding-right: 3%;
 }
 
-.span2, .span4{
-top: 50%;
+.span2{
+    right: 50%;
+    margin-top: 18%;
+    
+
+
+}
+.span3{
+   
+    margin-top: 18%;
+}
+.span4{
+    right: 50%;
+    margin-top: 18%;
+}
+.span5{
+    margin-top: 20%;
 }
 h5{
     font-family: "Parkinsans", sans-serif;
@@ -194,6 +211,7 @@ form{
 
 input, textarea, button{
     padding: 10px;
+    cursor: pointer;
     border-radius: 5px;
     border: 0.5px solid;
     width: 400px;
@@ -201,11 +219,18 @@ input, textarea, button{
 }
 button{
     font-size: 1.2rem;
+    cursor: pointer;
+    transition: 1s ease-in-out;
     margin-bottom: 15px;
     background-color: var(--color3);
 }
+button:hover{
+    background-color: var(--color4);
+    color:var(--color1);
+}
 textarea{
     height: 120px;
+    resize: none;
 }
 #inscription{
     background-color: rgb(102, 96, 96);
@@ -220,4 +245,12 @@ font-family: "Parkinsans", sans-serif;
  font-style: normal;
 color:var(--color1) ;  
 font-size: 1.2rem;
+}
+img{
+    z-index: -30;
+    cursor: pointer;
+    transition: 1.5s ease-in-out;
+}
+img:hover{
+transform: rotateY(360deg);
 }
