@@ -54,10 +54,9 @@ header ul li a{
     margin: 0;
     margin-left: 0;
     font-size: 1.6rem;
-
-
-
 }
+
+
 #first-section{
    background-image: url("./asset/background.jpg");
    background-size: cover;
@@ -167,7 +166,12 @@ left: 55%;
 top: 50%;
 }
 .img2-dec, .img4-dec{
+  
    float: right;
+   cursor: pointer;
+   right: 5%;
+ 
+   
    padding-right: 3%;
 }
 
