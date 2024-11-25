@@ -8,6 +8,7 @@
     --color2:#f1e6e6;
     --color3:#9d8484;
     --color4:black;
+   --color5: rgb(102, 96, 96);
 
 }
 html, body{
@@ -36,14 +37,12 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
+    z-index: 30;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.2rem;
-    /* font-size: 1.99rem; */
+   
 }
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 400 to 700 */
 
-/* .edu-au-vic-wa-nt-pre-<uniquifier> { */
 .name{
   
     font-family: "Parisienne", serif;
@@ -177,6 +176,7 @@ top: 50%;
 
 .span2{
     right: 50%;
+    z-index: -1000;
     margin-top: 18%;
     
 
@@ -189,6 +189,7 @@ top: 50%;
 .span4{
     right: 50%;
     margin-top: 18%;
+    z-index: -1000;
 }
 .span5{
     margin-top: 20%;
@@ -237,7 +238,7 @@ textarea{
     resize: none;
 }
 #inscription{
-    background-color: rgb(102, 96, 96);
+    background-color: var( --color5);
 }
 .copy{
 text-align: center;
@@ -261,7 +262,7 @@ transform: rotateY(360deg);
 hr{
 margin: 25px 0;
 }
-@media  screen and ( max-width:500px) {
+@media  screen and ( max-width:500px ) {
     .none{
         display: none;
     }
