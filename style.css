@@ -16,6 +16,7 @@ html, body{
 }
 header{
     height: 8vh;
+    z-index: 20;
     width: 100%;
 }
 header ul{
@@ -171,10 +172,23 @@ top: 50%;
 .span2, .span4{
 top: 50%;
 }
+h5{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+     text-transform: uppercase;
+    font-weight: 300;
+   font-size: 1.5rem;
+   font-style: normal;
+    color:var(--color1) ;  
+    padding: 40px 0; 
+    margin: 0 auto;
+    text-align: center;
+}
 form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -182,13 +196,28 @@ input, textarea, button{
     padding: 10px;
     border-radius: 5px;
     border: 0.5px solid;
-    width: 350px;
+    width: 400px;
 
 }
 button{
     font-size: 1.2rem;
+    margin-bottom: 15px;
     background-color: var(--color3);
 }
 textarea{
     height: 120px;
+}
+#inscription{
+    background-color: rgb(102, 96, 96);
+}
+.copy{
+text-align: center;
+padding: 30px;
+font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+     
+    font-weight: 300;
+ font-style: normal;
+color:var(--color1) ;  
+font-size: 1.2rem;
 }
