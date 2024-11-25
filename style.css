@@ -172,7 +172,7 @@ top: 50%;
    right: 5%;
  
    
-   padding-right: 3%;
+   padding-right: 5%;
 }
 
 .span2{
@@ -257,4 +257,22 @@ img{
 }
 img:hover{
 transform: rotateY(360deg);
+}
+hr{
+margin: 25px 0;
+}
+@media  screen and ( max-width:500px) {
+    .none{
+        display: none;
+    }
+    img{
+        width:  100%;
+       margin: 0;
+    }
+}
+
+@media  screen and ( max-width:440px) {
+    input, textarea, button{
+        width: 90%;
+    }
 }
