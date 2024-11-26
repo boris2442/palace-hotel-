@@ -277,3 +277,14 @@ margin: 25px 0;
         width: 90%;
     }
 }
+@media screen and ( max-width:340px) {
+    .ctt{
+        display: none;
+    }
+    .name{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+}
