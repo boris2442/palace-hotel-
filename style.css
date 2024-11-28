@@ -27,6 +27,7 @@ header ul{
     padding: 20px;
     margin: 0;
     width: 100%;
+    z-index: 1;
     position: fixed;
     opacity:0.9;
 }
@@ -118,6 +119,7 @@ h3{
 
 .father div img{
     border-radius: 5px;
+    z-index: -1;
     box-shadow:4px 4px 5px var(--color3) ;
 }
 .father div h4{
@@ -165,7 +167,7 @@ left: 55%;
 top: 50%;
 }
 .img2-dec, .img4-dec{
-  
+  z-index: -1;
    float: right;
    cursor: pointer;
    right: 5%;
@@ -268,6 +270,7 @@ margin: 25px 0;
     }
     img{
         width:  100%;
+        z-index: -1;
        margin: 0;
     }
 }
