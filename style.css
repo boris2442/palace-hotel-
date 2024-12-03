@@ -119,18 +119,24 @@ width: 100%;
    
     flex-direction: column;
     gap:70px;
-   top: 50%;
-    /* position: absolute; */
+   top: 30%;
+    
     z-index: 100;
     left: 15px;
 }
 .reseaux i{
+    cursor: pointer;
    font-size: 2rem;
   left: 20px;
-padding: 20px;
-  margin-left: 20px;
+padding: 30px;
+text-align: center;
+
+  /* margin-left: 20px; */
+  height: 20px;
+border-radius: 50%;
 right: 40px;
-width: 20%;
+width: 20px;
+
   display: flex;
 }
 .reseaux i:hover{
