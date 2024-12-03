@@ -91,6 +91,8 @@ h2{
 }
 #second-section{
 text-align: center;
+position: relative;
+
 }
 h3{
       font-family: "Parkinsans", sans-serif;
@@ -110,9 +112,29 @@ h3{
     display: flex;
     margin: 0 auto;
 }
+.reseaux{
+width: 100%;
+
+    display: flex;
+   
+    flex-direction: column;
+    gap:30px;
+   
+    position: absolute;
+    left: 15px;
+}
+.reseaux i{
+   font-size: 2rem;
+  left: 20px;
+
+  margin-left: 20px;
+right: 40px;
+  display: flex;
+}
 .father{
     display: flex;
     flex-wrap: wrap;
+    z-index: -2;
     gap:20px;
     justify-content: space-around;
 }
