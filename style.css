@@ -175,7 +175,11 @@ width: 20px;
 .father div img{
     border-radius: 5px;
     z-index: -1;
+    transition: 1s ease-in-out;
     box-shadow:4px 4px 5px var(--color3) ;
+}
+.father div img:hover{
+    transform: rotateY(360deg);
 }
 .father div h4{
     text-align: center;
@@ -226,10 +230,13 @@ top: 50%;
    float: right;
    cursor: pointer;
    right: 5%;
- 
+ display: flex;
    
    padding-right: 5%;
 }
+/* .image4:hover{
+    transform: rotateY(180deg);
+} */
 
 .span2{
     right: 50%;
