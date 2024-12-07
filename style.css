@@ -281,6 +281,12 @@ button:hover{
     background-color: var(--color4);
     color:var(--color1);
 }
+input:focus, textarea:focus:focus{
+    background-color: var(--color3);
+    color:var(--color1);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
 textarea{
     height: 120px;
     resize: none;
