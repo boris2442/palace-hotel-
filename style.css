@@ -1,5 +1,8 @@
 *, ::after, ::before{
     padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
     margin: 0;
     box-sizing: border-box;
 }
