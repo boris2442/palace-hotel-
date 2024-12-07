@@ -147,16 +147,16 @@ width: 20px;
   display: flex;
 }
 
-.reseaux i:nth-child(1){
+.reseaux .faceb{
     color:#1877F2;
 }
-.reseaux i:nth-child(2){
-  color:  #1DA1F2 ;
+.reseaux .twit{
+  color :  #1DA1F2 ;
 }
-.reseaux i:nth-child(3){
+.reseaux .inst{
   color:#E4405F  ;
 }
-.reseaux i:nth-child(4){
+.reseaux .what{
   color: #25D366  ;
 }
 .father{
@@ -167,7 +167,7 @@ width: 20px;
     justify-content: space-around;
 }
 .reseaux i:hover{
-    /* background-color: var(--color3); */
+
     background-color: var(--color4);
     justify-content: center;
     align-items: center;
