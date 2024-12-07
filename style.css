@@ -129,7 +129,7 @@ width: 100%;
    font-size: 2rem;
   left: 20px;
 padding: 30px;
-
+transition:all 1s ease-in-out;
 text-align: center;
 
 margin-left: 30px;
@@ -162,7 +162,13 @@ width: 20px;
     gap:20px;
     justify-content: space-around;
 }
-
+.reseaux i:hover{
+    /* background-color: var(--color3); */
+    background-color: var(--color4);
+    justify-content: center;
+    align-items: center;
+    color:var(--color3);
+}
 .father div img{
     border-radius: 5px;
     z-index: -1;
