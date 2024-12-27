@@ -44,10 +44,21 @@ header div{
     font-size: 2.4rem;
     cursor: pointer;
 }
+header div .bars{
+    /* position: absolute;
+    right: 40px;
+    top: -150%; */
+    display: none;
+}
+header div .remov{
+   display: none;
+   
+}
 header div i:hover{
     color:var(--color3);
     transition: .3s ease-in-out;
 }
+
 header ul{
     display: flex;
     justify-content: space-around;
