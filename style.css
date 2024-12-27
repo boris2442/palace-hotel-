@@ -412,3 +412,43 @@ margin: 25px 0;
         align-items: center;
     }
 }
+
+
+/* partie destinee au menu burger */
+
+@media screen and ( max-width:690px){
+   
+header div .bars{
+    display: block;
+        position: absolute;
+    right: 10px;
+    top: -10px; 
+}
+header ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 8.0vh;
+    left: -100%;
+    width: 300px;
+    transition: 1s ease-in-out;
+    background-color: var(--color2);
+   
+}
+.active{
+    position: absolute;
+    left: 0;
+    transition: 1s ease-in-out;
+}
+header div .remov{
+    display: block;
+    position: absolute;
+    right: -50px;
+}
+.remov2{
+    position: absolute;
+    display: block;
+    right: 10px;
+       top: -10px; 
+}
+}
