@@ -101,7 +101,8 @@ header ul li a:hover::after{
     transition: .5s ease-in-out;
 }
 header ul li a:hover{
-    color:var(--color3);
+    /* color:var(--color3); */
+    color:#2a2828;
 }
 .name{
   
