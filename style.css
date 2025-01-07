@@ -452,3 +452,10 @@ header div .remov{
        top: -10px; 
 }
 }
+
+
+.active-link{
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: 7px;
+}
