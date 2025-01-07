@@ -54,17 +54,21 @@ const app = new Typewriter(decouvert, {
 
 const sections = document.querySelectorAll("section");
 const links = document.querySelectorAll("header ul li a");
-
+console.log(links);
 const scrollActive = () => {
   sections.forEach(section => {
     let height = section.offsetHeight;
     let top = section.offsetTop;
-    let id = section.getAnimations("id");
+    let id = section.getAttribute("id");
     let scrolls = window.scrollY;
-    if(scrolls>=top - 300 && scrolls<top + height){
-        links.forEach(link=>{
-        
-        })
+    if (scrolls >= top - 300 && scrolls < top + height) {
+      links.forEach(link => {
+        link.classList.remove("active-link");
+      });
+      let recuperationId = document.querySelector(`header ul li a[href*=${id}]`);
+      recuperationId.classList.add("active-link");
     }
   });
 };
+
+window.addEventListener("scroll", scrollActive);
