@@ -25,8 +25,10 @@ html, body{
     width: 100%;
 }
 body.dark-mode {
-    --color1: #e0e0e0;  /* Texte clair en mode sombre */
+    --color1: #e0e0e0; 
+
     --color2: #3a3a3a;
+   
     --color3: #d1bebe;
     --color4: #121212;
     --color5: rgb(200, 200, 200);
@@ -559,6 +561,11 @@ header div .remov{
     padding: 10px;
     border-radius: 7px;
 };
+.dark-color{
+    color:var(--color1);
+}
 
 
-
+.first-para2{
+    color:var(--color1);
+}

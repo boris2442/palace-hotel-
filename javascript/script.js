@@ -90,10 +90,16 @@ window.onload = function() {
 //   document.documentElement.style.setProperty('--color6', ' #1c1b1b')
 // });
 
+const firstPara=document.querySelector(".first-para")
 const darkToggleButton = document.querySelector(".dark");
 
 darkToggleButton.addEventListener("click", ()=>{
 document.body.classList.toggle("dark-mode")
 burger.style.color='var(--color1)'
+
+darkToggleButton.style.color='var(--color1)'
+darkToggleButton.classList.toggle('darkToggleButton')
+// firstPara.class .toggle("first-para2")
+  
 
 });
