@@ -18,9 +18,19 @@
 }
 
 html, body{
+    transition: all 1s ease;
+    background-color: var(--color1);
     font-family:'parkinsans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow-x: hidden;
     width: 100%;
+}
+body.dark-mode {
+    --color1: #e0e0e0;  /* Texte clair en mode sombre */
+    --color2: #3a3a3a;
+    --color3: #d1bebe;
+    --color4: #121212;
+    --color5: rgb(200, 200, 200);
+    --color6: #1c1b1b;
 }
 .loader {
     position: fixed;
@@ -548,4 +558,7 @@ header div .remov{
     background-color: var(--color3);
     padding: 10px;
     border-radius: 7px;
-}
+};
+
+
+

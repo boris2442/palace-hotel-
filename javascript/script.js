@@ -78,3 +78,22 @@ window.onload = function() {
   document.querySelector('.loader').style.display = 'none';
   document.querySelector('.loader').style.transition='5s ease-out'
 };
+
+
+// const darkMode=document.querySelector(".dark");
+// darkMode.addEventListener("click", ()=>{
+//   document.documentElement.style.setProperty('--color1', ' #e0e0e0')
+//   document.documentElement.style.setProperty('--color2', ' #3a3a3a')
+//   document.documentElement.style.setProperty('--color3', ' #d1bebe ')
+//   document.documentElement.style.setProperty('--color4', ' #121212')
+//   document.documentElement.style.setProperty('--color5', ' rgb(200, 200, 200)')
+//   document.documentElement.style.setProperty('--color6', ' #1c1b1b')
+// });
+
+const darkToggleButton = document.querySelector(".dark");
+
+darkToggleButton.addEventListener("click", ()=>{
+document.body.classList.toggle("dark-mode")
+burger.style.color='var(--color1)'
+
+});
