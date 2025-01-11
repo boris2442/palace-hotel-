@@ -30,7 +30,7 @@ window.addEventListener("scroll", () => {
 const child = document.querySelector(".child-title");
 const typewriter = new Typewriter(child, {
   loop: true,
-  delay: 150,
+  delay: 100,
 })
   .typeString("Un lieu unique pour un séjour unique")
   .pauseFor(2000)
