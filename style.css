@@ -1,6 +1,6 @@
 *, ::after, ::before{
     padding: 0;
-
+       outline: none;
     text-decoration: none;
     list-style-type: none;
     scroll-behavior: smooth;
